@@ -1,13 +1,50 @@
+
+METHOD 1  ----- WE CAN USE CAHARACTER ARRAY
+----------
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    char name[120];
+    char name[120]; // WE USED ARRAY AS IF WE USED ONLR CHAR IT WOULD ONLE PRINT FIRST WORD OF THE NAME
 cout<<"enter your name";
 cin>> name;
 cout<<"'Welcome,"<<name<<"'"   ;
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------
+METHOD 2A ----- WE CAN USE STRING 
+---------
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+std::string firstname;
+std::cout<<"Welcome, " << " Enter your name: ";
+std::cin>>firstname;
+std::cout<<"Welcome, " <<firstname; 
+
+}
+
+---------------------------------------------------------------------------------------------
+METHOD 2B
+---------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string name;
+cout<<"enter your name";
+cin>> name;
+cout<<"'Welcome, "<<name  ;
 
     return 0;
 }
